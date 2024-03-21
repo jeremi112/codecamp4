@@ -1,0 +1,112 @@
+header{
+  display:flex;
+  
+}
+#fixed{
+  position:fixed;
+  background-color:white;
+  width:100%;
+}
+img{
+
+  height:20vh;
+  
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+#nav-bar{
+  width:80%;
+  display:flex;
+justify-content:space-between;
+padding:5vh 15vh;
+
+}
+#title{
+  text-align:center;
+}
+#form{
+  display:flex;
+justify-content:center;
+}
+#email{
+ border:2px solid black;
+ height:5vh;
+}
+#submit{
+  width:20vh;
+  margin:0vh 2vh;
+background-color:black;
+color:white;
+border-color :red;
+}
+.flavours{
+  display:flex;
+  margin:10vh;
+  justify-content:center;
+}
+.flavours h3{
+  padding: 3vh;
+}
+#videox{
+  display:flex;
+ justify-content:center;
+ margin-top:30vh;
+}
+#sec2{
+  padding-top:20vh;
+}
+#pricing{
+  width:40vh;
+  height:50vh;
+  background-color:white;
+  border:solid;
+}
+#pricing h2{
+  text-align:center;
+background-color:#eeee;
+height:8vh;
+padding-top:3vh;
+}
+#pricing h1{
+  text-align:center;
+}
+#pricing h4{
+  text-align:center;
+  padding:1vh 10vh;
+}
+#btn{
+  display:flex;
+justify-content:center;  
+}
+#pricing button{
+  width:15vh;
+  height:8vh;
+  border:solid;
+  background-color:black;
+  color:white;
+  cursor:pointer;
+}
+#myprice{
+  display:flex;
+  justify-content:space-between;
+  margin:10vh;
+}
+
+#footer{
+  background-color:#eeee;
+padding:5vh;
+}
+#footer h3 {
+  text-align:end;
+
+}
+#footer h4{
+  text-align:end;
+}
+@media(max-width:400px){
+  img{
+    height:10vh;
+  }
+}
